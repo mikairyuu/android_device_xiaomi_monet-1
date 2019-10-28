@@ -513,7 +513,13 @@
     <bool name="config_statusBarBurnInProtection">true</bool>
 
     <!-- Night Light FOD -->
-    <bool name="disable_fod_night_light">true</bool>  
+    <bool name="disable_fod_night_light">true</bool>
+
+     <!-- The list of components which should be automatically disabled for a specific device. -->
+    <string-array name="config_deviceDisabledComponents" translatable="false">
+        <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
+        <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
+    </string-array>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
