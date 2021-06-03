@@ -23,6 +23,10 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+    
 # Fingerprint
 TARGET_HAS_FOD := true
 
