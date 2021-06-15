@@ -26,6 +26,7 @@ SOONG_CONFIG_XIAOMI_LITO_FOD_SIZE = 190
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := vendor/monet_user_defconfig
 
 # Prebuilt
