@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_monet.mk
+   $(LOCAL_DIR)/evolution_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_monet-user \
-    lineage_monet-userdebug \
-    lineage_monet-eng
+    evolution_monet-user \
+    evolution_monet-userdebug \
+    evolution_monet-eng
