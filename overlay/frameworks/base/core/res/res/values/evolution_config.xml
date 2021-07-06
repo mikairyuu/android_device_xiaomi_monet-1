@@ -26,6 +26,9 @@
     <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
     
 
+    <!-- Default FOD pressed icon color -->
+    <integer name="config_fod_pressed_color">0</integer>
+
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
