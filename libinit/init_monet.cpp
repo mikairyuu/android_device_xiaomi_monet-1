@@ -7,8 +7,8 @@
 #include <libinit_lito.h>
 
 static const variant_info_t monet_info = {
-    .hwc_value = "",
-    .sku_value = "std",
+    .prop_key = "ro.boot.product.hardware.sku",
+    .prop_value = "std",
 
     .brand = "Xiaomi",
     .device = "monet",
@@ -16,7 +16,6 @@ static const variant_info_t monet_info = {
     .model = "M2002J9G",
     .build_description = "monet-user 11 RKQ1.200826.002 V12.5.1.0.RJIMIXM release-keys",
     .build_fingerprint = "Xiaomi/monet_global/monet:11/RKQ1.200826.002/V12.5.1.0.RJIMIXM:user/release-keys",
-    .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
