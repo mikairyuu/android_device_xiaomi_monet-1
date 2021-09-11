@@ -21,3 +21,8 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10 Lite 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="monet-user 11 RKQ1.200826.002 V12.5.1.0.RJIMIXM release-keys"
+
+BUILD_FINGERPRINT := Xiaomi/monet_global/monet:11/RKQ1.200826.002/V12.5.1.0.RJIMIXM:user/release-keys
