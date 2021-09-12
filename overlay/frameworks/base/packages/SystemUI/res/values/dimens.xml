@@ -23,5 +23,5 @@
     <dimen name="keyguard_carrier_text_margin">40dp</dimen>
 
     <!-- More realistic padding -->
-    <dimen name="rounded_corner_content_padding">30dp</dimen>
+    <dimen name="rounded_corner_content_padding">18dp</dimen>
 </resources>
