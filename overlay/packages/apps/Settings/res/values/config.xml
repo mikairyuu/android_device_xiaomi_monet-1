@@ -34,6 +34,6 @@
     -->
     <integer name="config_fingerprintSensorLocation">1</integer> 
 <!-- Whether device has screen off FOD support -->
-    <bool name="config_supportScreenOffFod">false</bool>
+    <bool name="config_supportScreenOffFod">true</bool>
     <bool name="config_supportSmartCharging">true</bool>
 </resources>
