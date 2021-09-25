@@ -499,6 +499,9 @@
          and on the navigation bar and disabled for all other devices. -->
     <bool name="config_statusBarBurnInProtection">true</bool>
 
+    <!-- Night Light FOD -->
+    <bool name="disable_fod_night_light">true</bool>  
+
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
      -->
