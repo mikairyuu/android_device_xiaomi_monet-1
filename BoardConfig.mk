@@ -16,7 +16,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-TARGET_KERNEL_CONFIG := vendor/monet_user_defconfig
+TARGET_KERNEL_CONFIG := monet_defconfig
 
 # Inherit from the proprietary version
 include vendor/xiaomi/monet/BoardConfigVendor.mk
