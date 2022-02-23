@@ -510,7 +510,7 @@
     <bool name="config_statusBarBurnInProtection">true</bool>
 
     <!-- Night Light FOD -->
-    <bool name="disable_fod_night_light">true</bool>
+    <bool name="config_udfpsDisableNightLight">true</bool>
 
      <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
