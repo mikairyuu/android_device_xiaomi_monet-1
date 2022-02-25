@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/evolution_monet.mk
+   $(LOCAL_DIR)/awaken_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_monet-user \
-    evolution_monet-userdebug \
-    evolution_monet-eng
+    awaken_monet-user \
+    awaken_monet-userdebug \
+    awaken_monet-eng
