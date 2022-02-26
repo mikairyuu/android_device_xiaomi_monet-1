@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/evolution_monet.mk
+   $(LOCAL_DIR)/octavi_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_monet-user \
-    evolution_monet-userdebug \
-    evolution_monet-eng
+    octavi_monet-user \
+    octavi_monet-userdebug \
+    octavi_monet-eng
