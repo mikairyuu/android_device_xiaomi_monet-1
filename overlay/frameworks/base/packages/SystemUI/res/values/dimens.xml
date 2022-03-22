@@ -25,12 +25,8 @@
     <!-- More realistic padding -->
     <dimen name="rounded_corner_content_padding">18dp</dimen>
 
-        <!-- Location on the screen of the center of the physical volume up/down buttons. -->
+    <!-- Location on the screen of the center of the physical power button. -->
    <dimen name="physical_power_button_center_screen_location_y">1000px</dimen>
-
-    <!-- Location on the screen of the center of the physical volume up/down buttons. -->
-    <dimen name="physical_volume_up_button_center_screen_location_y">600px</dimen>
-    <dimen name="physical_volume_down_button_center_screen_location_y">740px</dimen>
 
     <!-- Location on the screen of the center of the fingerprint sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">2025px</dimen>
