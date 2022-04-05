@@ -1,4 +1,4 @@
-# All blobs below are extracted from monet 11 RKQ1.200826.002 V12.5.5.0.RJIEUXM release-keys
+# All blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.2.0.SJIMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Elevoc/Elevoc_Bluetooth_cal.acdb
@@ -85,6 +85,7 @@ vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 system/lib/libcameraservice.so|b89e7386bea1ed293ca68c58b117431c3565c600
 system/lib/libmediaplayer_shim.so|e6711a39bd4feca1daf64070aa6b6895db7998c6
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
+system_ext/lib/vendor.qti.hardware.camera.device@2.0.so
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
@@ -652,6 +653,7 @@ vendor/etc/sensors/proto/sns_mcmd.proto
 vendor/etc/sensors/proto/sns_motion_detect.proto
 vendor/etc/sensors/proto/sns_multishake.proto
 vendor/etc/sensors/proto/sns_oem1.proto
+vendor/etc/sensors/proto/sns_oem2.proto
 vendor/etc/sensors/proto/sns_oem3.proto
 vendor/etc/sensors/proto/sns_offbody_detect.proto
 vendor/etc/sensors/proto/sns_pedometer.proto
@@ -703,5 +705,7 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
+vendor/etc/thermal-per-camera.conf
+vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
