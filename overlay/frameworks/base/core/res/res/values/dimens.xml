@@ -29,7 +29,7 @@
     <dimen name="status_bar_height_landscape">@dimen/status_bar_height</dimen>
 
     <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">0px</dimen>
+    <dimen name="rounded_corner_radius">20.0dip</dimen>
 
     <!-- Radius of the software rounded corners at the top of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
@@ -37,6 +37,6 @@
     
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">113px</dimen>
+    <dimen name="rounded_corner_radius_bottom">0px</dimen>
 
 </resources>
