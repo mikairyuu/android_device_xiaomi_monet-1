@@ -2045,8 +2045,8 @@
     <path name="ultrasound-proximity">
         <ctl name="Ultrasound Enable" value="On" />
         <ctl name="Ultrasound Mode" value="762" />
-        <!--ctl name="Ultrasound Debug Mode" value="1" /-->
-        <!--ctl name="Ultrasound Log Level" value="7" /-->
+        <ctl name="Ultrasound Debug Mode" value="0" />
+        <ctl name="Ultrasound Log Level" value="0" />
     </path>
 
     <path name="ultrasound-proximity-output">
@@ -2073,10 +2073,10 @@
     <path name="ultrasound-gesture1">
         <ctl name="Ultrasound Enable" value="On"/>
         <!--  release mode  -->
-        <!--ctl name="Ultrasound Mode" value="584"/-->
+        <ctl name="Ultrasound Mode" value="584"/>
         <!--  debug mode  -->
-        <ctl name="Ultrasound Mode" value="585"/>
-        <ctl name="Ultrasound Log Level" value="7" />
+        <!--ctl name="Ultrasound Mode" value="585"/-->
+        <!--ctl name="Ultrasound Log Level" value="0" /-->
     </path>
 
     <path name="ultrasound-gesture1-output">
