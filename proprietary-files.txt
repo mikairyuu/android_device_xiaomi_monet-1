@@ -25,6 +25,9 @@ vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Hdmi_cal.acdb
 vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_workspaceFile.qwsp
+vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
+vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # ADSP modules
@@ -46,7 +49,6 @@ vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
-vendor/lib/rfsa/adsp/libproxy_skel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so
@@ -60,10 +62,6 @@ vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
-
-# Audio firmware
-vendor/firmware/mono.cnt
-vendor/firmware/tfa98xx.cnt
 
 # Audio conf
 vendor/etc/cirrus.cfg
@@ -84,9 +82,6 @@ vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 # Camera
 system/lib/libcameraservice.so|b89e7386bea1ed293ca68c58b117431c3565c600
 system/lib/libmediaplayer_shim.so|e6711a39bd4feca1daf64070aa6b6895db7998c6
-system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
-system_ext/lib/vendor.qti.hardware.camera.device@2.0.so
-system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib/libmmcamera_faceproc.so
@@ -227,7 +222,6 @@ vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libst_soft_isp_shared.so
 vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
