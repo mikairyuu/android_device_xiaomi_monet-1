@@ -69,21 +69,14 @@ vendor/etc/cirrus.cfg
 # Audio hardware
 vendor/lib/hw/audio.primary.lito.so
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioroute_ext.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/hw/audio.primary.lito.so
-vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioroute_ext.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # Camera
-system/lib/libcameraservice.so|b89e7386bea1ed293ca68c58b117431c3565c600
 system/lib/libmediaplayer_shim.so|e6711a39bd4feca1daf64070aa6b6895db7998c6
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib64/camera/com.qti.eeprom.monet_ofilm_gc02m1_gt24p64b.so
@@ -124,19 +117,8 @@ vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.4-external-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/camera.device@3.5-external-impl.so
-vendor/lib64/camera.device@3.5-impl.so
-vendor/lib64/camera.device@3.6-external-impl.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
@@ -231,7 +213,6 @@ vendor/lib64/libvideoBokeh.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
