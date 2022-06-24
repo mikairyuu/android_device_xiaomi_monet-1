@@ -29,6 +29,10 @@ TARGET_HAS_FOD := true
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
+# Pixel Wallpapers (2021)
+PRODUCT_PACKAGES += \
+    PixelWallpapers2021
+
 # Inherit from sm7250-common
 $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 
