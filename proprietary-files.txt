@@ -71,9 +71,6 @@ vendor/lib/hw/audio.primary.lito.so
 vendor/lib/vndk/libxlog.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib64/hw/audio.primary.lito.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # Camera
 system/lib/libmediaplayer_shim.so|e6711a39bd4feca1daf64070aa6b6895db7998c6
