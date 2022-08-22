@@ -44,36 +44,20 @@
     <!-- Different CPU speeds as reported in
          /sys/devices/system/cpu/cpufreq/ploicy0/scaling_available_frequencies -->
     <array name="cpu.core_speeds.cluster0">
-      <value>300000</value> <!-- 300 MHz CPU speed -->
-      <value>576000</value> <!-- 576 MHz CPU speed -->
-      <value>614400</value> <!-- 614 MHz CPU speed -->
-      <value>864000</value> <!-- 864 MHz CPU speed -->
-      <value>1075200</value> <!-- 1075 MHz CPU speed -->
-      <value>1363200</value> <!-- 1363 MHz CPU speed -->
       <value>1516800</value> <!-- 1516 MHz CPU speed -->
-      <value>1651200</value> <!-- 1651 MHz CPU speed -->
       <value>1804800</value> <!-- 1804 MHz CPU speed -->
     </array>
     <!-- Different CPU speeds as reported in
          /sys/devices/system/cpu/cpufreq/ploicy6/scaling_available_frequencies -->
     <array name="cpu.core_speeds.cluster1">
-      <value>652800</value> <!-- 652 MHz CPU speed -->
-      <value>940800</value> <!-- 940 MHz CPU speed -->
-      <value>1152000</value> <!-- 1152 MHz CPU speed -->
       <value>1478400</value> <!-- 1478 MHz CPU speed -->
       <value>1728000</value> <!-- 1728 MHz CPU speed -->
-      <value>1900800</value> <!-- 1900 MHz CPU speed -->
-      <value>2092800</value> <!-- 2092 MHz CPU speed -->
       <value>2208000</value> <!-- 2208 MHz CPU speed -->
     </array>
     <!-- Different CPU speeds as reported in
          /sys/devices/system/cpu/cpufreq/ploicy7/scaling_available_frequencies -->
     <array name="cpu.core_speeds.cluster2">
-      <value>806400</value> <!-- 806 MHz CPU speed -->
-      <value>1094400</value> <!-- 1094 MHz CPU speed -->
-      <value>1401600</value> <!-- 1401 MHz CPU speed -->
       <value>1766400</value> <!-- 1766 MHz CPU speed -->
-      <value>1996800</value> <!-- 1996 MHz CPU speed -->
       <value>2188800</value> <!-- 2188 MHz CPU speed -->
       <value>2304000</value> <!-- 2304 MHz CPU speed -->
       <value>2400000</value> <!-- 2400 MHz CPU speed -->
@@ -81,36 +65,20 @@
     <!-- Additional power used by a CPU core from cluster 0 when running at
          different speeds, excluding cluster and active cost -->
     <array name="cpu.core_power.cluster0">
-      <value>41.92</value> <!-- 300 MHz CPU speed -->
-      <value>59.59</value> <!-- 576 MHz CPU speed -->
-      <value>61.93</value> <!-- 614 MHz CPU speed -->
-      <value>79.86</value> <!-- 864 MHz CPU speed -->
-      <value>95.92</value> <!-- 1075 MHz CPU speed -->
-      <value>121.97</value> <!-- 1363 MHz CPU speed -->
       <value>140.72</value> <!-- 1516 MHz CPU speed -->
-      <value>159.18</value> <!-- 1651 MHz CPU speed -->
       <value>176.19</value> <!-- 1804 MHz CPU speed -->
     </array>
     <!-- Additional power used by a CPU core from cluster 1 when running at
          different speeds, excluding cluster and active cost -->
     <array name="cpu.core_power.cluster1">
-      <value>32.13</value> <!-- 652 MHz CPU speed -->
-      <value>35.98</value> <!-- 940 MHz CPU speed -->
-      <value>40.03</value> <!-- 1152 MHz CPU speed -->
       <value>51.02</value> <!-- 1478 MHz CPU speed -->
       <value>77.06</value> <!-- 1728 MHz CPU speed -->
-      <value>86.25</value> <!-- 1900 MHz CPU speed -->
-      <value>97.30</value> <!-- 2092 MHz CPU speed -->
       <value>101.61</value> <!-- 2208 MHz CPU speed -->
     </array>
     <!-- Additional power used by a CPU core from cluster 2 when running at
          different speeds, excluding cluster and active cost -->
     <array name="cpu.core_power.cluster2">
-      <value>56.44</value> <!-- 806 MHz CPU speed -->
-      <value>65.72</value> <!-- 1094 MHz CPU speed -->
-      <value>77.01</value> <!-- 1401 MHz CPU speed -->
       <value>104.91</value> <!-- 1766 MHz CPU speed -->
-      <value>112.35</value> <!-- 1996 MHz CPU speed -->
       <value>118.53</value> <!-- 2188 MHz CPU speed -->
       <value>122.34</value> <!-- 2304 MHz CPU speed -->
       <value>135.00</value> <!-- 2400 MHz CPU speed -->
